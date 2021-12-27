@@ -16,7 +16,6 @@ async def on_ready():
     print(f"Logged in as {bot.user}(ID:{bot.user.id})")
     print("=====")
 
-# 引数をそのまま返す
 @bot.command()
 async def res(ctx, first: str):
     # 引数をそのまま返す
